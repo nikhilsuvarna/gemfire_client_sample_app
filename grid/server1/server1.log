@@ -1,0 +1,646 @@
+
+[info 2017/07/13 10:29:34.084 CDT server1 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  cache-xml-file=C:\temp\Pivotal\SampleGemfireApp\SDG-Caching-Example-master\grid\config\serverCache.xml
+  http-service-bind-address=localhost
+  http-service-port=7071
+  start-dev-rest-api=true
+  use-cluster-configuration=true
+  ### GemFire Properties defined with api ###
+  name=server1
+  ### GemFire Properties defined with file:/C:/temp/Pivotal/SampleGemfireApp/SDG-Caching-Example-master/grid/config/gemfire.properties ###
+  archive-disk-space-limit=1000
+  archive-file-size-limit=100
+  locators=localhost[10334]
+  log-level=config
+  mcast-port=0
+  statistic-archive-file=stats.gfs
+  statistic-sampling-enabled=true
+  ### GemFire Properties defined with launcher ###
+  log-file=server1.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cluster-configuration-dir=.
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=.
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  durable-client-id=
+  durable-client-timeout=300
+  enable-cluster-configuration=true
+  enable-network-partition-detection=false
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=false
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7071
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl=false
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  license-application-cache=
+  license-data-management=
+  license-server-timeout=10000
+  license-working-dir=
+  load-cluster-configuration-from-dir=false
+  locator-wait-time=0
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-enabled=false
+  ssl-protocols=any
+  ssl-require-authentication=true
+  start-locator=
+  statistic-sample-rate=1000
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  user-command-packages=
+  writable-working-dir=
+  
+
+[info 2017/07/13 10:29:34.135 CDT server1 <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+  
+    Copyright (C) 1997-2017 Pivotal Software, Inc. All rights reserved. This
+    product is protected by U.S. and international copyright and intellectual
+    property laws. Pivotal products are covered by one or more patents listed
+    at http://www.pivotal.io/patents.  Pivotal is a registered trademark
+    of trademark of Pivotal Software, Inc. in the United States and/or other
+    jurisdictions.  All other marks and names mentioned herein may be
+    trademarks of their respective companies.
+  
+  ---------------------------------------------------------------------------
+  Java version:   8.2.4 build 50 03/16/2017 20:58:56 UTC javac 1.7.0_79
+  Native version: 6.5  06/02/2010 11:20:54 PDT optimized x86 Windows 2003 5.2
+  Source revision: e45397f0214f6da2459d8a1fd3f133e5bdc173b6
+  Source repository: support/8.2
+  Running on: /3.142.66.141, 4 cpu(s), amd64 Windows 7 6.1
+  Process ID: 13084
+  User: 290008468
+  Current dir: C:\temp\Pivotal\SampleGemfireApp\SDG-Caching-Example-master\grid\server1
+  Home dir: C:\Users\290008468
+  Command Line Parameters:
+    -Dgemfire.default.locators=3.142.66.141[10334]
+    -DgemfirePropertyFile=C:\temp\Pivotal\SampleGemfireApp\SDG-Caching-Example-master\grid\config\gemfire.properties
+    -Dgemfire.cache-xml-file=C:\temp\Pivotal\SampleGemfireApp\SDG-Caching-Example-master\grid\config\serverCache.xml
+    -Dgemfire.use-cluster-configuration=true
+    -Dgemfire.start-dev-rest-api=true
+    -Dgemfire.http-service-port=7071
+    -Dgemfire.http-service-bind-address=localhost
+    -XX:OnOutOfMemoryError=taskkill /F /PID %p
+    -Xms100m
+    -Xmx100m
+    -XX:+UseConcMarkSweepGC
+    -XX:CMSInitiatingOccupancyFraction=60
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    C:\GemFire\lib\gemfire.jar
+    $CLASSPATH
+    C:\GemFire\lib\server-dependencies.jar
+  Library Path:
+    C:\Program Files\Java\jdk1.8.0_121\jre\bin
+    C:\WINDOWS\Sun\Java\bin
+    C:\WINDOWS\system32
+    C:\WINDOWS
+    C:\ProgramData\Oracle\Java\javapath
+    C:\Program Files\Java\jdk1.8.0_121\bin
+    C:\GemFire\bin
+    C:\Support\Maven\apache-maven-3.3.9\bin
+    C:\Program Files (x86)\RSA SecurID Token Common
+    C:\WINDOWS\system32
+    C:\WINDOWS
+    C:\WINDOWS\System32\Wbem
+    C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+    C:\Program Files (x86)\WebEx\Productivity Tools
+    C:\Program Files (x86)\Extra!\
+    C:\Program Files\TortoiseSVN\bin
+    C:\Users\290008468\AppData\Roaming\Cloud Foundry
+    C:\Program Files\Git\cmd
+    C:\Program Files (x86)\Sennheiser\SoftphoneSDK\
+    C:\Program Files\Docker Toolbox
+    .
+  System Properties:
+      awt.toolkit = sun.awt.windows.WToolkit
+      file.encoding = Cp1252
+      file.encoding.pkg = sun.io
+      file.separator = \
+      gemfire.cache-xml-file = C:\temp\Pivotal\SampleGemfireApp\SDG-Caching-Example-master\grid\config\serverCache.xml
+      gemfire.default.locators = 3.142.66.141[10334]
+      gemfire.http-service-bind-address = localhost
+      gemfire.http-service-port = 7071
+      gemfire.launcher.registerSignalHandlers = true
+      gemfire.start-dev-rest-api = true
+      gemfire.use-cluster-configuration = true
+      gemfirePropertyFile = C:\temp\Pivotal\SampleGemfireApp\SDG-Caching-Example-master\grid\config\gemfire.properties
+      java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.awt.windows.WPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed
+      java.ext.dirs = C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+      java.home = C:\Program Files\Java\jdk1.8.0_121\jre
+      java.io.tmpdir = C:\Users\290008468\AppData\Local\Temp\
+      java.rmi.server.randomIDs = true
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_121-b13
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_121
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.121-b13
+      jnidispatch.path = C:\Users\290008468\AppData\Local\Temp\jna-1448283335\jna5242288288598640836.dll
+      line.separator = 
+  
+      log4j.configurationFile = jar:file:/C:/GemFire/lib/gemfire.jar!/com/gemstone/gemfire/internal/logging/log4j/log4j2-default.xml
+      os.version = 6.1
+      p2p.useSSL = false
+      path.separator = ;
+      sun.arch.data.model = 64
+      sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes
+      sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_121\jre\bin
+      sun.cpu.endian = little
+      sun.cpu.isalist = amd64
+      sun.desktop = windows
+      sun.io.unicode.encoding = UnicodeLittle
+      sun.java.command = com.gemstone.gemfire.distributed.ServerLauncher start server1 --server-port=0
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = Cp1252
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.nio.ch.bugLevel = 
+      sun.os.patch.level = Service Pack 1
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = US
+      user.language = en
+      user.script = 
+      user.timezone = America/Chicago
+      user.variant = 
+  Log4J 2 Configuration:
+      Setting log4j.configurationFile to specify log4j configuration file: 'jar:file:/C:/GemFire/lib/gemfire.jar!/com/gemstone/gemfire/internal/logging/log4j/log4j2-default.xml'
+  ---------------------------------------------------------------------------
+  
+
+[info 2017/07/13 10:29:34.142 CDT server1 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  cache-xml-file=C:\temp\Pivotal\SampleGemfireApp\SDG-Caching-Example-master\grid\config\serverCache.xml
+  http-service-bind-address=localhost
+  http-service-port=7071
+  start-dev-rest-api=true
+  use-cluster-configuration=true
+  ### GemFire Properties defined with api ###
+  name=server1
+  ### GemFire Properties defined with file:/C:/temp/Pivotal/SampleGemfireApp/SDG-Caching-Example-master/grid/config/gemfire.properties ###
+  archive-disk-space-limit=1000
+  archive-file-size-limit=100
+  locators=localhost[10334]
+  log-level=config
+  mcast-port=0
+  statistic-archive-file=stats.gfs
+  statistic-sampling-enabled=true
+  ### GemFire Properties defined with launcher ###
+  log-file=server1.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cluster-configuration-dir=.
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=.
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  durable-client-id=
+  durable-client-timeout=300
+  enable-cluster-configuration=true
+  enable-network-partition-detection=false
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=false
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7071
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl=false
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  license-application-cache=
+  license-data-management=
+  license-server-timeout=10000
+  license-working-dir=
+  load-cluster-configuration-from-dir=false
+  locator-wait-time=0
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-enabled=false
+  ssl-protocols=any
+  ssl-require-authentication=true
+  start-locator=
+  statistic-sample-rate=1000
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  user-command-packages=
+  writable-working-dir=
+  
+
+[info 2017/07/13 10:29:34.146 CDT server1 <main> tid=0x1] Defaulting license-working-dir to current working directory "C:\temp\Pivotal\SampleGemfireApp\SDG-Caching-Example-master\grid\server1".
+
+[info 2017/07/13 10:29:34.148 CDT server1 <main> tid=0x1] Licensing required 3 milliseconds.
+
+[info 2017/07/13 10:29:34.215 CDT server1 <main> tid=0x1] GemFire P2P Listener started on  tcp:///3.142.66.141<v0>:9682
+
+[info 2017/07/13 10:29:34.672 CDT server1 <PingSender> tid=0x26] locator localhost(null)<v0>:10334 member address is ussyfchil208230(locatorA:3456:locator)<v0>:47625
+
+[info 2017/07/13 10:29:34.674 CDT server1 <main> tid=0x1] Attempting to join distributed system whose membership coordinator is ussyfchil208230(locatorA:3456:locator)<v0>:47625 using membership ID ussyfchil208230(server1:13084):22973
+
+[info 2017/07/13 10:29:34.864 CDT server1 <main> tid=0x1] Membership: lead member is now ussyfchil208230(server1:13084)<v1>:22973
+
+[info 2017/07/13 10:29:34.881 CDT server1 <main> tid=0x1] Entered into membership with ID ussyfchil208230(server1:13084)<v1>:22973.
+
+[info 2017/07/13 10:29:34.882 CDT server1 <main> tid=0x1] Starting DistributionManager ussyfchil208230(server1:13084)<v1>:22973.  (took 681/ ms)
+
+[info 2017/07/13 10:29:34.887 CDT server1 <main> tid=0x1] Initial (membershipManager) view =  [ussyfchil208230(locatorA:3456:locator)<v0>:47625, ussyfchil208230(server1:13084)<v1>:22973{lead}]
+
+[info 2017/07/13 10:29:34.890 CDT server1 <main> tid=0x1] Admitting member <ussyfchil208230(locatorA:3456:locator)<v0>:47625>. Now there are 1 non-admin member(s).
+
+[info 2017/07/13 10:29:34.890 CDT server1 <main> tid=0x1] Admitting member <ussyfchil208230(server1:13084)<v1>:22973>. Now there are 2 non-admin member(s).
+
+[info 2017/07/13 10:29:34.900 CDT server1 <FD_SOCK Ping thread> tid=0x29] GemFire failure detection is now monitoring ussyfchil208230(locatorA:3456:locator)<v0>:47625
+
+[info 2017/07/13 10:29:35.582 CDT server1 <P2P message reader for ussyfchil208230(locatorA:3456:locator)<v0>:47625 shared unordered uid=1 port=52790> tid=0x2d] Member ussyfchil208230(locatorA:3456:locator)<v0>:47625 is equivalent or in the same redundancy zone.
+
+[info 2017/07/13 10:29:35.944 CDT server1 <main> tid=0x1] Initializing region _monitoringRegion_3.142.66.141<v1>22973
+
+[info 2017/07/13 10:29:35.966 CDT server1 <main> tid=0x1] Region _monitoringRegion_3.142.66.141<v1>22973 requesting initial image from ussyfchil208230(locatorA:3456:locator)<v0>:47625
+
+[info 2017/07/13 10:29:35.976 CDT server1 <main> tid=0x1] _monitoringRegion_3.142.66.141<v1>22973 is done getting image from ussyfchil208230(locatorA:3456:locator)<v0>:47625. isDeltaGII is false
+
+[info 2017/07/13 10:29:35.977 CDT server1 <main> tid=0x1] Initialization of region _monitoringRegion_3.142.66.141<v1>22973 completed
+
+[info 2017/07/13 10:29:37.303 CDT server1 <main> tid=0x1] Received cluster configuration from the locator
+
+[info 2017/07/13 10:29:37.304 CDT server1 <main> tid=0x1] Received an empty shared configuration
+
+[info 2017/07/13 10:29:37.428 CDT server1 <main> tid=0x1] Initializing region PdxTypes
+
+[info 2017/07/13 10:29:37.432 CDT server1 <main> tid=0x1] Initialization of region PdxTypes completed
+
+[info 2017/07/13 10:29:37.456 CDT server1 <main> tid=0x1] Bridge server connection listener bound to address 0.0.0.0/0.0.0.0:52803 with backlog 1,000.
+
+[info 2017/07/13 10:29:37.468 CDT server1 <main> tid=0x1] ClientHealthMonitorThread maximum allowed time between pings: 60,000
+
+[info 2017/07/13 10:29:37.488 CDT server1 <main> tid=0x1] CacheServer Configuration:   port=52803 max-connections=800 max-threads=0 notify-by-subscription=true socket-buffer-size=32768 maximum-time-between-pings=60000 maximum-message-count=230000 message-time-to-live=180 eviction-policy=none capacity=1 overflow directory=. groups=[] loadProbe=ConnectionCountProbe loadPollInterval=5000 tcpNoDelay=true
+
+[info 2017/07/13 10:29:37.500 CDT server1 <main> tid=0x1] Cache initialized using "file:/C:/temp/Pivotal/SampleGemfireApp/SDG-Caching-Example-master/grid/config/serverCache.xml":
+  <?xml version="1.0"?>
+  <!DOCTYPE cache PUBLIC
+  "-//GemStone Systems, Inc.//GemFire Declarative Caching 8.0//EN"
+  "http://www.gemstone.com/dtd/cache8_0.dtd">
+  <cache>
+  	<pdx read-serialized="true">
+          <pdx-serializer>
+              <class-name>com.gemstone.gemfire.pdx.ReflectionBasedAutoSerializer</class-name>
+              <parameter name="classes">
+                  <string>.*</string>
+              </parameter>
+          </pdx-serializer>
+      </pdx>
+  </cache>
+
+[info 2017/07/13 10:29:37.501 CDT server1 <main> tid=0x1] Attempting to start HTTP service on port (7071) at bind-address (localhost)...
+
+[info 2017/07/13 10:29:37.528 CDT server1 <main> tid=0x1] Logging initialized @5590ms
+
+[info 2017/07/13 10:29:37.618 CDT server1 <main> tid=0x1] jetty-9.2.13.v20150730
+
+[info 2017/07/13 10:29:40.045 CDT server1 <main> tid=0x1] NO JSP Support for /gemfire-api, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+[info 2017/07/13 10:29:41.003 CDT server1 <main> tid=0x1] Initializing Spring FrameworkServlet 'gemfire-api'
+
+[info 2017/07/13 10:29:41.004 CDT server1 <main> tid=0x1] FrameworkServlet 'gemfire-api': initialization started
+
+[info 2017/07/13 10:29:41.043 CDT server1 <main> tid=0x1] Refreshing WebApplicationContext for namespace 'gemfire-api-servlet': startup date [Thu Jul 13 10:29:41 CDT 2017]; root of context hierarchy
+
+[info 2017/07/13 10:29:41.225 CDT server1 <main> tid=0x1] Loading XML bean definitions from ServletContext resource [/WEB-INF/gemfire-api-servlet.xml]
+
+[info 2017/07/13 10:29:42.406 CDT server1 <main> tid=0x1] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6d367020: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,baseControllerAdvice,functionController,pdxCrudController,queryController,swaggerConfig,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,contentNegotiationManager,objectMapper,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,classOrApiAnnotationResourceGrouping,swaggerCache,defaultSwaggerController,springSwaggerConfig,springSwaggerModelConfig,swaggerRequestMappingHandlerMappings,defaultResourceGroupingStrategy,defaultExcludeAnnotations,defaultSwaggerPathProvider,defaultIgnorableParameterTypes,defaultResponseMessages,defaultParameterDataTypes,jacksonScalaSupport,swaggerApiResourceListing,swaggerGlobalSettings,apiListingReferenceScanner,apiPathProvider]; root of factory hierarchy
+
+[info 2017/07/13 10:29:42.708 CDT server1 <main> tid=0x1] Mapped "{[/v1/functions/{functionId}],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.gemstone.gemfire.rest.internal.web.controllers.FunctionAccessController.execute(java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String[],java.lang.String)
+
+[info 2017/07/13 10:29:42.708 CDT server1 <main> tid=0x1] Mapped "{[/v1/functions],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.FunctionAccessController.list()
+
+[info 2017/07/13 10:29:42.716 CDT server1 <main> tid=0x1] Mapped "{[/v1/{region}/{keys}],methods=[PUT],params=[],headers=[],consumes=[application/json],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.PdxBasedCrudController.update(java.lang.String,java.lang.String[],java.lang.String,java.lang.String)
+
+[info 2017/07/13 10:29:42.717 CDT server1 <main> tid=0x1] Mapped "{[/v1/{region}],methods=[HEAD],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.PdxBasedCrudController.size(java.lang.String)
+
+[info 2017/07/13 10:29:42.718 CDT server1 <main> tid=0x1] Mapped "{[/v1/{region}/{keys}],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.PdxBasedCrudController.read(java.lang.String,java.lang.String[],java.lang.String)
+
+[info 2017/07/13 10:29:42.718 CDT server1 <main> tid=0x1] Mapped "{[/v1/{region}],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.PdxBasedCrudController.read(java.lang.String,java.lang.String)
+
+[info 2017/07/13 10:29:42.719 CDT server1 <main> tid=0x1] Mapped "{[/v1/{region}],methods=[POST],params=[],headers=[],consumes=[application/json],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.PdxBasedCrudController.create(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/07/13 10:29:42.719 CDT server1 <main> tid=0x1] Mapped "{[/v1/{region}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.CommonCrudController.delete(java.lang.String)
+
+[info 2017/07/13 10:29:42.719 CDT server1 <main> tid=0x1] Mapped "{[/v1/{region}/{keys}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.CommonCrudController.delete(java.lang.String,java.lang.String[])
+
+[info 2017/07/13 10:29:42.720 CDT server1 <main> tid=0x1] Mapped "{[/v1/{region}/keys],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.CommonCrudController.keys(java.lang.String)
+
+[info 2017/07/13 10:29:42.720 CDT server1 <main> tid=0x1] Mapped "{[/v1],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.CommonCrudController.regions()
+
+[info 2017/07/13 10:29:42.720 CDT server1 <main> tid=0x1] Mapped "{[/v1/servers],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.CommonCrudController.servers()
+
+[info 2017/07/13 10:29:42.721 CDT server1 <main> tid=0x1] Mapped "{[/v1/ping],methods=[GET || HEAD],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.CommonCrudController.ping()
+
+[info 2017/07/13 10:29:42.723 CDT server1 <main> tid=0x1] Mapped "{[/v1/queries/{query}],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.QueryAccessController.update(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/07/13 10:29:42.724 CDT server1 <main> tid=0x1] Mapped "{[/v1/queries/{query}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.QueryAccessController.delete(java.lang.String)
+
+[info 2017/07/13 10:29:42.724 CDT server1 <main> tid=0x1] Mapped "{[/v1/queries],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.QueryAccessController.create(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/07/13 10:29:42.725 CDT server1 <main> tid=0x1] Mapped "{[/v1/queries],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.rest.internal.web.controllers.QueryAccessController.list()
+
+[info 2017/07/13 10:29:42.726 CDT server1 <main> tid=0x1] Mapped "{[/v1/queries/adhoc],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.gemstone.gemfire.rest.internal.web.controllers.QueryAccessController.runAdhocQuery(java.lang.String)
+
+[info 2017/07/13 10:29:42.726 CDT server1 <main> tid=0x1] Mapped "{[/v1/queries/{query}],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.gemstone.gemfire.rest.internal.web.controllers.QueryAccessController.runNamedQuery(java.lang.String,java.lang.String)
+
+[info 2017/07/13 10:29:42.735 CDT server1 <main> tid=0x1] Mapped "{[/api-docs/{resourceKey}/{resource}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wordnik.swagger.model.ApiListing> com.mangofactory.swagger.controllers.DefaultSwaggerController.getApiListing(java.lang.String,java.lang.String)
+
+[info 2017/07/13 10:29:42.737 CDT server1 <main> tid=0x1] Mapped "{[/api-docs/{resourceKey}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wordnik.swagger.model.ResourceListing> com.mangofactory.swagger.controllers.DefaultSwaggerController.getResourceListing(java.lang.String)
+
+[info 2017/07/13 10:29:42.738 CDT server1 <main> tid=0x1] Mapped "{[/api-docs],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wordnik.swagger.model.ResourceListing> com.mangofactory.swagger.controllers.DefaultSwaggerController.getResourceListingByKey()
+
+[info 2017/07/13 10:29:42.900 CDT server1 <main> tid=0x1] Detected @ExceptionHandler methods in baseControllerAdvice
+
+[info 2017/07/13 10:29:42.969 CDT server1 <main> tid=0x1] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+[info 2017/07/13 10:29:43.907 CDT server1 <main> tid=0x1] Scanning for api listing references
+
+[info 2017/07/13 10:29:43.908 CDT server1 <main> tid=0x1] Adding resource to group functions for handler method: execute
+
+[info 2017/07/13 10:29:43.963 CDT server1 <main> tid=0x1] Adding resource to group functions for handler method: list
+
+[info 2017/07/13 10:29:43.963 CDT server1 <main> tid=0x1] Adding resource to group region for handler method: update
+
+[info 2017/07/13 10:29:43.963 CDT server1 <main> tid=0x1] Adding resource to group region for handler method: size
+
+[info 2017/07/13 10:29:43.964 CDT server1 <main> tid=0x1] Adding resource to group region for handler method: read
+
+[info 2017/07/13 10:29:43.964 CDT server1 <main> tid=0x1] Adding resource to group region for handler method: read
+
+[info 2017/07/13 10:29:43.964 CDT server1 <main> tid=0x1] Adding resource to group region for handler method: create
+
+[info 2017/07/13 10:29:43.965 CDT server1 <main> tid=0x1] Adding resource to group region for handler method: delete
+
+[info 2017/07/13 10:29:43.965 CDT server1 <main> tid=0x1] Adding resource to group region for handler method: delete
+
+[info 2017/07/13 10:29:43.965 CDT server1 <main> tid=0x1] Adding resource to group region for handler method: keys
+
+[info 2017/07/13 10:29:43.966 CDT server1 <main> tid=0x1] Adding resource to group region for handler method: regions
+
+[info 2017/07/13 10:29:43.966 CDT server1 <main> tid=0x1] Adding resource to group region for handler method: servers
+
+[info 2017/07/13 10:29:43.966 CDT server1 <main> tid=0x1] Adding resource to group region for handler method: ping
+
+[info 2017/07/13 10:29:43.967 CDT server1 <main> tid=0x1] Adding resource to group queries for handler method: update
+
+[info 2017/07/13 10:29:43.967 CDT server1 <main> tid=0x1] Adding resource to group queries for handler method: delete
+
+[info 2017/07/13 10:29:43.967 CDT server1 <main> tid=0x1] Adding resource to group queries for handler method: create
+
+[info 2017/07/13 10:29:43.968 CDT server1 <main> tid=0x1] Adding resource to group queries for handler method: list
+
+[info 2017/07/13 10:29:43.968 CDT server1 <main> tid=0x1] Adding resource to group queries for handler method: runAdhocQuery
+
+[info 2017/07/13 10:29:43.968 CDT server1 <main> tid=0x1] Adding resource to group queries for handler method: runNamedQuery
+
+[info 2017/07/13 10:29:43.969 CDT server1 <main> tid=0x1] Excluding method as it contains the excluded annotation: interface com.mangofactory.swagger.annotations.ApiIgnore
+
+[info 2017/07/13 10:29:43.969 CDT server1 <main> tid=0x1] Excluding method as it contains the excluded annotation: interface com.mangofactory.swagger.annotations.ApiIgnore
+
+[info 2017/07/13 10:29:43.981 CDT server1 <main> tid=0x1] Excluding method as it contains the excluded annotation: interface com.mangofactory.swagger.annotations.ApiIgnore
+
+[info 2017/07/13 10:29:44.055 CDT server1 <main> tid=0x1] Creating resource listing Path: http://localhost:7071/gemfire-api/api-docs/gemfireApi/functions Description: functions Position: 0
+
+[info 2017/07/13 10:29:44.056 CDT server1 <main> tid=0x1] Creating resource listing Path: http://localhost:7071/gemfire-api/api-docs/gemfireApi/queries Description: queries Position: 1
+
+[info 2017/07/13 10:29:44.057 CDT server1 <main> tid=0x1] Creating resource listing Path: http://localhost:7071/gemfire-api/api-docs/gemfireApi/region Description: region Position: 2
+
+[info 2017/07/13 10:29:45.255 CDT server1 <main> tid=0x1] FrameworkServlet 'gemfire-api': initialization completed in 4251 ms
+
+[info 2017/07/13 10:29:45.255 CDT server1 <main> tid=0x1] Started o.e.j.w.WebAppContext@2bc426f0{/gemfire-api,file:/C:/temp/Pivotal/SampleGemfireApp/SDG-Caching-Example-master/grid/server1/GemFire_290008468/services/http/localhost_7071_gemfire-api/webapp/,AVAILABLE}{C:\GemFire/tools/Extensions/gemfire-api.war}
+
+[info 2017/07/13 10:29:45.271 CDT server1 <main> tid=0x1] Started ServerConnector@1f53481b{HTTP/1.1}{localhost:7071}
+
+[info 2017/07/13 10:29:45.272 CDT server1 <main> tid=0x1] Started @13334ms
+
+[info 2017/07/13 10:29:45.272 CDT server1 <main> tid=0x1] HTTP service started successfully...!!
+
+[info 2017/07/13 10:29:45.273 CDT server1 <main> tid=0x1] Initializing region __ParameterizedQueries__
+
+[info 2017/07/13 10:29:45.292 CDT server1 <main> tid=0x1] Initialization of region __ParameterizedQueries__ completed
+
+[info 2017/07/13 10:30:37.648 CDT server1 <UDP ucast receiver> tid=0x22] Membership: received new view  [ussyfchil208230(locatorA:3456:locator)<v0>:47625|2] [ussyfchil208230(locatorA:3456:locator)<v0>:47625/23932, ussyfchil208230(server1:13084)<v1>:22973/9682, ussyfchil208230(server2:12472)<v2>:41162/1723]
+
+[info 2017/07/13 10:30:37.667 CDT server1 <View Message Processor> tid=0x5c] Membership: Processing addition < ussyfchil208230(server2:12472)<v2>:41162 >
+
+[info 2017/07/13 10:30:37.668 CDT server1 <View Message Processor> tid=0x5c] Admitting member <ussyfchil208230(server2:12472)<v2>:41162>. Now there are 3 non-admin member(s).
+
+[info 2017/07/13 10:30:37.669 CDT server1 <FD_SOCK Ping thread> tid=0x29] GemFire failure detection is now monitoring ussyfchil208230(server2:12472)<v2>:41162
+
+[info 2017/07/13 10:30:38.092 CDT server1 <Pooled High Priority Message Processor 1> tid=0x2e] Member ussyfchil208230(server2:12472)<v2>:41162 is equivalent or in the same redundancy zone.
+
+[info 2017/07/13 10:48:21.534 CDT server1 <Function Execution Processor1> tid=0x59] Initializing region __PR
+
+[info 2017/07/13 10:48:21.564 CDT server1 <Function Execution Processor1> tid=0x59] Region __PR requesting initial image from ussyfchil208230(server2:12472)<v2>:41162
+
+[info 2017/07/13 10:48:21.586 CDT server1 <Function Execution Processor1> tid=0x59] __PR is done getting image from ussyfchil208230(server2:12472)<v2>:41162. isDeltaGII is false
+
+[info 2017/07/13 10:48:21.587 CDT server1 <Function Execution Processor1> tid=0x59] Initialization of region __PR completed
+
+[info 2017/07/13 10:48:21.721 CDT server1 <Function Execution Processor1> tid=0x59] Partitioned Region /Account is created with prId=1
+
+[info 2017/07/13 10:48:21.997 CDT server1 <Function Execution Processor1> tid=0x59] XmlEntity:searchString: //cache:region[@name='Account']

@@ -1,0 +1,2 @@
+start server --name=server1 --server-port=0 --classpath=$CLASSPATH --properties-file=config/gemfire.properties --cache-xml-file=config/serverCache.xml --initial-heap=100m --max-heap=100m --J=-Dgemfire.start-dev-rest-api=true --J=-Dgemfire.http-service-port=7071 --J=-Dgemfire.http-service-bind-address=localhost
+start server --name=server2 --server-port=0 --classpath=$CLASSPATH --properties-file=config/gemfire.properties --cache-xml-file=config/serverCache.xml --initial-heap=100m --max-heap=100m
